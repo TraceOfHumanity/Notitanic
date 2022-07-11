@@ -94,7 +94,7 @@
             font-family: 'NEXT ART';
             font-style: normal;
             font-weight: 700;
-            font-size: 72px;
+            font-size: calc(35px + (72 - 35) * ((100vw - 768px) / (1920 - 768)));
             line-height: 82px;
             display: flex;
             align-items: center;
@@ -218,18 +218,48 @@
         }
       }
     }
-    &__block2{
-      background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
-      .block2__content{
-        .content__cards{
-          .content__cards{
-            .card{
-              img{
 
-              }
-              p{
-                
-              }
+    &__block2 {
+      background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+      padding: 100px 0;
+
+      .block2__content {
+        margin: 0 auto;
+        width: calc(768px + (1200 - 768) * ((100vw - 768px) / (1920 - 768)));
+
+        .content__cards {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 40px;
+          justify-content: center;
+
+          .card {
+            width: 270px;
+            height: 270px;
+            background: #2A2A2A;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.47);
+            border-radius: 29px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+
+            img {}
+
+            p {
+              font-family: 'Arodora Pro';
+              font-style: normal;
+              font-weight: 300;
+              font-size: 24px;
+              line-height: 29px;
+              /* identical to box height */
+
+              display: flex;
+              align-items: center;
+
+              /* text */
+
+              color: #E4E4E4;
             }
           }
         }
