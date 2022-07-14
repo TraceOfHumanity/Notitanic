@@ -1,0 +1,5 @@
+$(function(){
+  $('.sliders').slick({
+    
+  });
+})
