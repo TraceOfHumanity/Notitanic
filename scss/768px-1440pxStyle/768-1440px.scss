@@ -66,7 +66,7 @@
 
   .main {
     &__block1 {
-      width: calc(768px + (1200 - 768) * ((100vw - 768px) / (9000 - 768)));
+      width: calc(1200px + (5512 - 1200) * ((100vw - 1921px) / (9000 - 1921)));
       margin: 0 auto;
 
       .block1__content {
@@ -77,15 +77,14 @@
 
         .content__left {
           width: 50%;
-          gap: calc(23px + (27 - 23) * ((100vw - 768px) / (1920 - 768)));
+          gap: calc(23px + (27 - 23) * ((100vw - 1921px) / (9000 - 1921)));
 
           .hello {
             font-family: 'Roboto';
             font-style: normal;
             font-weight: 600;
-            font-size: calc(21px + (48 - 21) * ((100vw - 768px) / (1920 - 768)));
-            line-height: calc(25px + (54 - 25) * ((100vw - 768px) / (1920 - 768)));
-            ;
+            font-size: calc(48px + (180 - 48) * ((100vw - 1921px) / (9000 - 1921)));
+            line-height: calc(20px + (54 - 20) * ((100vw - 1921px) / (9000 - 1921)));
             display: flex;
             align-items: center;
             color: #E4E4E4;
@@ -95,21 +94,20 @@
             font-family: 'NEXT ART';
             font-style: normal;
             font-weight: 700;
-            font-size: calc(35px + (72 - 35) * ((100vw - 768px) / (1920 - 768)));
-            line-height: 82px;
+            font-size: calc(72px + (280 - 72) * ((100vw - 1921px) / (9000 - 1921)));
+            line-height: calc(72px + (400 - 72) * ((100vw - 1921px) / (9000 - 1921)));
             display: flex;
             align-items: center;
             color: #E4E4E4;
           }
 
           .text {
-            width: calc(350px + (430 - 350) * ((100vw - 768px) / (1920 - 768)));
+            width: calc(430px + (1970 - 430) * ((100vw - 1921px) / (9000 - 1921)));
             font-family: 'Arodora Pro';
             font-style: normal;
             font-weight: 300;
-            font-size: calc(13px + (18 - 13) * ((100vw - 768px) / (1920 - 768)));
-            ;
-            line-height: 21px;
+            font-size: calc(18px + (72 - 18) * ((100vw - 1921px) / (9000 - 1921)));
+            line-height: calc(21px + (140 - 21) * ((100vw - 1921px) / (9000 - 1921)));
             display: flex;
             align-items: center;
             color: #E4E4E4;
@@ -117,7 +115,8 @@
 
           .left__button {
             margin-top: 20px;
-            padding: 14px 40px;
+            padding: calc(14px + (56 - 14) * ((100vw - 1921px) / (9000 - 1921))) calc(40px + (100 - 40) * ((100vw - 1921px) / (9000 - 1921)));
+            ;
             display: inline-block;
             background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
             box-shadow: 0px 2px 13px rgba(226, 158, 0, 0.48);
@@ -127,7 +126,7 @@
               font-family: 'NEXT ART';
               font-style: normal;
               font-weight: 700;
-              font-size: 18px;
+              font-size: calc(18px + (72 - 18) * ((100vw - 1921px) / (9000 - 1921)));
               line-height: 20px;
               display: flex;
               align-items: center;
@@ -173,12 +172,15 @@
               -moz-border-radius: 50%;
               -ms-border-radius: 50%;
               -o-border-radius: 50%;
+
+              img {
+                width: 50%;
+              }
             }
 
             .skill1 {
               top: calc(20px + (50 - 20) * ((100vw - 768px) / (1920 - 768)));
               left: calc(10px + (25 - 10) * ((100vw - 768px) / (1920 - 768)));
-              ;
             }
 
             .UX {
@@ -194,13 +196,13 @@
 
             .PS {
               top: calc(220px + (400 - 220) * ((100vw - 768px) / (1920 - 768)));
-              left: calc(-10px + (48 - 10) * ((100vw - 768px) / (1920 - 768)));
+              left: calc(-10px + (48 - 10) * ((100vw - 768px) / (9000 - 768)));
               z-index: 3;
               ;
             }
 
             .avatar {
-              width: calc(182px + (456 - 182) * ((100vw - 768px) / (1920 - 768)));
+              width: calc(290px + (450 - 290) * ((100vw - 768px) / (1920 - 768)));
               z-index: 3;
               position: absolute;
               bottom: 0;
@@ -226,17 +228,17 @@
 
       .block2__content {
         margin: 0 auto;
-        width: calc(768px + (1200 - 768) * ((100vw - 768px) / (1920 - 768)));
+        width: calc(1200px + (5520 - 1200) * ((100vw - 1921px) / (9000 - 1921)));
 
         .content__cards {
           display: flex;
           flex-wrap: wrap;
-          gap: 40px;
+          gap: calc(40px + (160 - 40) * ((100vw - 1921px) / (9000 - 1921)));
           justify-content: center;
 
           .card {
-            width: 270px;
-            height: 270px;
+            width: calc(270px + (1200 - 270) * ((100vw - 1921px) / (9000 - 1921)));
+            height: calc(270px + (1200 - 270) * ((100vw - 1921px) / (9000 - 1921)));
             background: #2A2A2A;
             box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.47);
             border-radius: 29px;
@@ -245,21 +247,18 @@
             align-items: center;
             justify-content: space-evenly;
 
-            img {}
+            img {
+              width: 30%;
+            }
 
             p {
               font-family: 'Arodora Pro';
               font-style: normal;
               font-weight: 300;
-              font-size: 24px;
+              font-size: calc(24px + (110 - 24) * ((100vw - 1921px) / (9000 - 1921)));
               line-height: 29px;
-              /* identical to box height */
-
               display: flex;
               align-items: center;
-
-              /* text */
-
               color: #E4E4E4;
             }
           }
@@ -268,12 +267,12 @@
     }
 
     &__block3 {
-      padding: calc(65px + (160 - 65) * ((100vw - 768px) / (1920 - 768))) 0px calc(605px + (220 - 605) * ((100vw - 768px) / (1920 - 768))) 0px;
+      padding: calc(65px + (120 - 65) * ((100vw - 768px) / (1920 - 768))) 0px calc(305px + (820 - 305) * ((100vw - 1921px) / (9000 - 1921))) 0px;
       background: linear-gradient(90deg, #414141 0%, #2D2D2D 100.52%);
 
       .block3__content {
         margin: 0 auto;
-        width: calc(768px + (1200 - 768) * ((100vw - 768px) / (1920 - 768)));
+        width: calc(1200px + (5520 - 1200) * ((100vw - 1921px) / (9000 - 1921)));
         position: relative;
 
         .content__circles {
@@ -283,48 +282,47 @@
           z-index: 1;
 
           .circle__white {
-            width: calc(450px + (792 - 450) * ((100vw - 768px) / (1920 - 768)));
-            height: calc(450px + (792 - 450) * ((100vw - 768px) / (1920 - 768)));
+            width: calc(700px + (2600 - 700) * ((100vw - 1921px) / (9000 - 1921)));
+            height: calc(700px + (2600 - 700) * ((100vw - 1921px) / (9000 - 1921)));
             border-radius: 50%;
             -webkit-border-radius: 50%;
             -moz-border-radius: 50%;
             -ms-border-radius: 50%;
             -o-border-radius: 50%;
-            border: calc(35.6px + (89 - 35.6) * ((100vw - 768px) / (1920 - 768))) solid #E4E4E4;
+            border: calc(80px + (320 - 80) * ((100vw - 1921px) / (9000 - 1921))) solid #E4E4E4;
             filter: drop-shadow(0px 4px 70px rgba(255, 255, 255, 0.25));
             -webkit-filter: drop-shadow(0px 4px 70px rgba(255, 255, 255, 0.25));
-            transform: translateY(10px);
-            -webkit-transform: translateY(10px);
-            -moz-transform: translateY(10px);
-            -ms-transform: translateY(10px);
-            -o-transform: translateY(10px);
+            transform: translateY(100px);
+            -webkit-transform: translateY(100px);
+            -moz-transform: translateY(100px);
+            -ms-transform: translateY(100px);
+            -o-transform: translateY(100px);
           }
 
           .circle__yellow {
             position: absolute;
-            top: 0;
+            top: calc(100px + (150 - 100) * ((100vw - 1921px) / (9000 - 1921)));
             right: 0;
-            width: calc(142px + (356 - 142) * ((100vw - 768px) / (1920 - 768)));
-            height: calc(142px + (356 - 142) * ((100vw - 768px) / (1920 - 768)));
+            width: calc(356px + (1630 - 356) * ((100vw - 1921px) / (9000 - 1921)));
+            height: calc(356px + (1630 - 356) * ((100vw - 1921px) / (9000 - 1921)));
             border-radius: 50%;
             -webkit-border-radius: 50%;
             -moz-border-radius: 50%;
             -ms-border-radius: 50%;
             -o-border-radius: 50%;
-            border: 34px solid #E2A200;
+            border: calc(35.6px + (220 - 35.6) * ((100vw - 1921px) / (9000 - 1921))) solid #E2A200;
             filter: drop-shadow(0px 4px 70px rgba(226, 162, 0, 0.25));
             -webkit-filter: drop-shadow(0px 4px 70px rgba(226, 162, 0, 0.25));
           }
 
           .circle__blue {
             position: absolute;
-            bottom: 0;
+            bottom: calc(-192px + (130 - 192) * ((100vw - 1921px) / (9000 - 1921)));
             right: 0;
             border-radius: 50%;
-            width: 486px;
-            height: 486px;
-            border: 55px solid #00C4F0;
-            border: 55px solid #00C4F0;
+            width: calc(486px + (1900 - 486) * ((100vw - 1921px) / (9000 - 1921)));
+            height: calc(486px + (1900 - 486) * ((100vw - 1921px) / (9000 - 1921)));
+            border: calc(55px + (250 - 55) * ((100vw - 1921px) / (9000 - 1921))) solid #00C4F0;
             filter: drop-shadow(0px 4px 70px rgba(0, 193, 236, 0.25));
             -webkit-filter: drop-shadow(0px 4px 70px rgba(0, 193, 236, 0.25));
             -webkit-border-radius: 50%;
@@ -348,7 +346,7 @@
           .photo1 {
             position: absolute;
             top: 0;
-            left: calc(20px + (224 - 20) * ((100vw - 768px) / (1920 - 768)));
+            left: calc(224px + (1200 - 224) * ((100vw - 1921px) / (9000 - 1921)));
 
             img {
               width: calc(181px + (272 - 181) * ((100vw - 768px) / (1920 - 768)));
@@ -359,24 +357,24 @@
 
           .photo2 {
             position: absolute;
-            top: 550px;
-            left: calc(20px + (250 - 20) * ((100vw - 768px) / (1920 - 768)));
+            top: calc(540px + (2000 - 540) * ((100vw - 1921px) / (9000 - 1921)));
+            left: calc(260px + (1060 - 260) * ((100vw - 1921px) / (9000 - 1921)));
 
             img {
-              width: calc(181px + (250 - 181) * ((100vw - 768px) / (1920 - 768)));
-              height: calc(213px + (281 - 213) * ((100vw - 768px) / (1920 - 768)));
+              width: calc(250px + (1000 - 250) * ((100vw - 1921px) / (9000 - 1921)));
+              height: calc(281px + (1100 - 281) * ((100vw - 1921px) / (9000 - 1921)));
               box-shadow: 0px 0px 0px 6px #686868;
             }
           }
 
           .photo3 {
             position: absolute;
-            top: 300px;
-            left: calc(580px + (930 - 580) * ((100vw - 768px) / (1920 - 768)));
+            top: calc(360px + (1200 - 360) * ((100vw - 1921px) / (9000 - 1921)));
+            left: calc(900px + (3500 - 900) * ((100vw - 1921px) / (9000 - 1921)));
 
             img {
-              width: calc(181px + (287 - 181) * ((100vw - 768px) / (1920 - 768)));
-              height: calc(284px + (427 - 284) * ((100vw - 768px) / (1920 - 768)));
+              width: calc(260px + (1000 - 260) * ((100vw - 1921px) / (9000 - 1921)));
+              // height: calc(400px + (427 - 400) * ((100vw - 1921px) / (9000 - 1921)));
               box-shadow: 0px 0px 0px 6px #686868;
             }
           }
@@ -385,11 +383,11 @@
         .about {
           position: absolute;
           top: 2%;
-          left: calc(400px + (700 - 400) * ((100vw - 768px) / (1920 - 768)));
+          left: calc(700px + (2800 - 700) * ((100vw - 1921px) / (9000 - 1921)));
           background: #2C2C2C;
           border-radius: 14px;
-          width: 458px;
-          padding: 30px 63px;
+          width: calc(400px + (1600 - 400) * ((100vw - 1921px) / (9000 - 1921)));
+          padding: 5% 3%;
           z-index: 3;
           transform: translateX(-50%);
           -webkit-transform: translateX(-50%);
@@ -401,7 +399,7 @@
             font-family: 'NEXT ART';
             font-style: normal;
             font-weight: 400;
-            font-size: 48px;
+            font-size: calc(48px + (220 - 48) * ((100vw - 1921px) / (9000 - 1921)));
             line-height: 54px;
             display: flex;
             align-items: center;
@@ -417,8 +415,8 @@
             font-family: 'Arodora Pro';
             font-style: normal;
             font-weight: 300;
-            font-size: 20px;
-            line-height: 24px;
+            font-size: calc(20px + (80 - 20) * ((100vw - 1921px) / (9000 - 1921)));
+            line-height: calc(24px + (96 - 24) * ((100vw - 1921px) / (9000 - 1921)));
             display: flex;
             align-items: center;
             letter-spacing: 0.01em;
@@ -440,24 +438,24 @@
           font-family: 'NEXT ART';
           font-style: normal;
           font-weight: 400;
-          font-size: 48px;
-          line-height: 54px;
+          font-size: calc(48px + (196 - 48) * ((100vw - 1921px) / (9000 - 1921)));
+          line-height: calc(54px + (100 - 54) * ((100vw - 1921px) / (9000 - 1921)));
           display: flex;
           align-items: center;
-          padding-bottom: 50px;
+          padding-bottom: 100px;
           color: #FFFFFF;
         }
 
         .sliders {
-          padding: 50px;
-          width: calc(700px + (970 - 700) * ((100vw - 768px) / (1920 - 768)));
+          padding:calc(25px + (50 - 25) * ((100vw - 1921px) / (9000 - 1920)));
+          width: calc(1100px + (3400 - 1100) * ((100vw - 1921px) / (9000 - 1920)));
           background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
           box-shadow: 0px 4px 15px rgba(27, 27, 27, 0.28);
           border-radius: 29px;
 
           .slider {
             display: flex;
-            justify-content: space-between;
+            justify-content: space-evenly;
             align-items: center;
 
             .portfolio__img {
@@ -472,8 +470,7 @@
             }
 
             .portfolio__info {
-              width: calc(250px + (300 - 250) * ((100vw - 768px) / (1920 - 768)));
-              ;
+              width: calc(300px + (1200 - 300) * ((100vw - 1921px) / (9000 - 1921)));
               display: flex;
               flex-direction: column;
               align-items: center;
@@ -483,13 +480,11 @@
                 font-family: 'Arodora Pro';
                 font-style: normal;
                 font-weight: 300;
-                font-size: 24px;
-                line-height: 29px;
-                padding-bottom: 25px;
-
+                font-size: calc(24px + (116 - 24) * ((100vw - 1921px) / (9000 - 1921)));
+                line-height: 40px;
+                padding-bottom: 100px;
                 display: flex;
                 align-items: center;
-
                 color: #FFFFFF;
               }
 
@@ -497,8 +492,8 @@
                 font-family: 'Arodora Pro';
                 font-style: normal;
                 font-weight: 300;
-                font-size: 18px;
-                line-height: 21px;
+                font-size: calc(18px + (62 - 18) * ((100vw - 1921px) / (9000 - 1921)));
+                line-height: calc(21px + (84 - 21) * ((100vw - 1921px) / (9000 - 1921)));
                 display: flex;
                 align-items: center;
                 text-align: center;
@@ -510,13 +505,17 @@
                 font-family: 'Arodora Pro';
                 font-style: normal;
                 font-weight: 300;
-                font-size: 18px;
+                font-size: calc(18px + (62 - 18) * ((100vw - 1921px) / (9000 - 1921)));
                 line-height: 21px;
                 display: flex;
                 align-items: center;
-
                 color: #E2A100;
+                img{
+                  margin-left: 20%;
+                  width: calc(20px + (62 - 20) * ((100vw - 1921px) / (9000 - 1921)));
+                }
               }
+              
             }
           }
         }
@@ -527,19 +526,24 @@
   .footer {
     padding: 50px 0;
     background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+
     .footer__content {
       gap: 115px;
       display: flex;
       justify-content: center;
+
       .column {
+        img{
+          width: calc(54px + (216 - 54) * ((100vw - 1921px) / (9000 - 1921)));
+        }
         ul {
           li {
             a {
               font-family: 'Arodora Pro';
               font-style: normal;
               font-weight: 300;
-              font-size: 18px;
-              line-height: 21px;
+              font-size: calc(18px + (102 - 18) * ((100vw - 1921px) / (9000 - 1921)));
+              line-height: calc(21px + (102 - 21) * ((100vw - 1921px) / (9000 - 1921)));
               display: flex;
               align-items: center;
               color: #E4E4E4;
@@ -554,13 +558,21 @@
       .column2 {}
 
       .column3 {
-        ul{
-          li{
+        img{
+          width: calc(18px + (1002 - 18) * ((100vw - 1921px) / (9000 - 1921)));
+        }
+        ul {
+          li {
             display: flex;
-            a{
+
+            a {
               display: block;
-              img{}
-              p{
+
+              .footer__logo {
+                
+              }
+
+              p {
                 margin-left: 15px;
               }
             }
@@ -571,6 +583,7 @@
     }
   }
 }
+
 @media (max-width: 1920px) {
 
   .header {
@@ -773,7 +786,7 @@
             }
 
             .avatar {
-              width: calc(182px + (456 - 182) * ((100vw - 768px) / (1920 - 768)));
+              width: calc(317px + (560 - 317) * ((100vw - 768px) / (1920 - 768)));
               z-index: 3;
               position: absolute;
               bottom: 0;
@@ -1100,10 +1113,12 @@
   .footer {
     padding: 50px 0;
     background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+
     .footer__content {
       gap: 115px;
       display: flex;
       justify-content: center;
+
       .column {
         ul {
           li {
@@ -1127,13 +1142,16 @@
       .column2 {}
 
       .column3 {
-        ul{
-          li{
+        ul {
+          li {
             display: flex;
-            a{
+
+            a {
               display: block;
-              img{}
-              p{
+
+              img {}
+
+              p {
                 margin-left: 15px;
               }
             }
@@ -1144,12 +1162,13 @@
     }
   }
 }
+
 @media (max-width: 767px) {
 
   .header {
     width: 100%;
     padding: 10px 0px;
-    margin-bottom: 100px;
+    margin-bottom: calc(30px + (60 - 30) * ((100vw - 320px) / (767 - 320)));
 
     .header__content {
       padding: 0 5px;
@@ -1186,6 +1205,7 @@
 
       .header__nav {
         width: 100%;
+
         ul {
           display: flex;
           justify-content: space-evenly;
@@ -1215,17 +1235,18 @@
 
   .main {
     &__block1 {
-      width: calc(320px + (1200 - 320) * ((100vw - 320px) / (767 - 320)));
+      width: calc(320px + (767 - 320) * ((100vw - 320px) / (767 - 320)));
       margin: 0 auto;
 
       .block1__content {
         display: flex;
+        flex-direction: column;
         align-items: center;
-        justify-content: space-between;
-        padding: 0 10px;
+        justify-content: center;
+        padding: 0 5px;
 
         .content__left {
-          width: 50%;
+          width: 90%;
           gap: calc(23px + (27 - 23) * ((100vw - 320px) / (767 - 320)));
 
           .hello {
@@ -1234,7 +1255,6 @@
             font-weight: 600;
             font-size: calc(21px + (48 - 21) * ((100vw - 320px) / (767 - 320)));
             line-height: calc(25px + (54 - 25) * ((100vw - 320px) / (767 - 320)));
-            ;
             display: flex;
             align-items: center;
             color: #E4E4E4;
@@ -1245,19 +1265,18 @@
             font-style: normal;
             font-weight: 700;
             font-size: calc(35px + (72 - 35) * ((100vw - 320px) / (767 - 320)));
-            line-height: 82px;
+            line-height: calc(40px + (72 - 40) * ((100vw - 320px) / (767 - 320)));
             display: flex;
             align-items: center;
             color: #E4E4E4;
           }
 
           .text {
-            width: calc(350px + (430 - 350) * ((100vw - 320px) / (767 - 320)));
+            width: calc(290px + (430 - 290) * ((100vw - 320px) / (767 - 320)));
             font-family: 'Arodora Pro';
             font-style: normal;
             font-weight: 300;
             font-size: calc(13px + (18 - 13) * ((100vw - 320px) / (767 - 320)));
-            ;
             line-height: 21px;
             display: flex;
             align-items: center;
@@ -1265,7 +1284,7 @@
           }
 
           .left__button {
-            margin-top: 20px;
+            margin: 20px 0px;
             padding: 14px 40px;
             display: inline-block;
             background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
@@ -1325,31 +1344,28 @@
             }
 
             .skill1 {
-              top: calc(20px + (50 - 20) * ((100vw - 320px) / (767 - 320)));
-              left: calc(10px + (25 - 10) * ((100vw - 320px) / (767 - 320)));
-              ;
+              top: calc(-10px + (50 - 10) * ((100vw - 320px) / (767 - 320)));
+              left: calc(100px + (25 - 100) * ((100vw - 320px) / (767 - 320)));
             }
 
             .UX {
-              top: calc(110px + (215 - 110) * ((100vw - 320px) / (767 - 320)));
-              right: calc(280px + (520 - 280) * ((100vw - 320px) / (767 - 320)));
+              top: calc(74px + (215 - 74) * ((100vw - 320px) / (767 - 320)));
+              right: calc(253px + (520 - 253) * ((100vw - 320px) / (767 - 320)));
             }
 
             .UI {
-              top: calc(10px + (10 - 10) * ((100vw - 320px) / (767 - 320)));
-              ;
+              top: calc(33px + (10 - 33) * ((100vw - 320px) / (767 - 320)));
               left: calc(230px + (420 - 230) * ((100vw - 320px) / (767 - 320)));
             }
 
             .PS {
               top: calc(220px + (400 - 220) * ((100vw - 320px) / (767 - 320)));
-              left: calc(-10px + (48 - 10) * ((100vw - 320px) / (767 - 320)));
+              left: calc(24px + (12 - 24) * ((100vw - 320px) / (767 - 320)));
               z-index: 3;
-              ;
             }
 
             .avatar {
-              width: calc(182px + (456 - 182) * ((100vw - 320px) / (767 - 320)));
+              width: calc(241px + (550 - 241) * ((100vw - 320px) / (767 - 320)));
               z-index: 3;
               position: absolute;
               bottom: 0;
@@ -1676,10 +1692,12 @@
   .footer {
     padding: 50px 0;
     background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+
     .footer__content {
       gap: 115px;
       display: flex;
       justify-content: center;
+
       .column {
         ul {
           li {
@@ -1703,13 +1721,16 @@
       .column2 {}
 
       .column3 {
-        ul{
-          li{
+        ul {
+          li {
             display: flex;
-            a{
+
+            a {
               display: block;
-              img{}
-              p{
+
+              img {}
+
+              p {
                 margin-left: 15px;
               }
             }
